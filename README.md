@@ -1,5 +1,19 @@
 
 
+# 準備
+
+```
+cd ios && pod install
+```
+
+
+# シミュレーターで起動
+
+```
+npx react-native run-ios
+```
+
+
 ```
   Run instructions for iOS:
     • npx react-native run-ios
@@ -14,47 +28,4 @@
   Run instructions for Windows and macOS:
     • See https://aka.ms/ReactNative for the latest up-to-date instructions.
 ```
-
-
-# 1.
-
-```
-npx react-native init MyTestApp
-```
-
-# 2. 
-
-```
-yarn add @ui-kitten/components @eva-design/eva react-native-svg
-```
-
-# 3. 
-
-```
-cd ios && pod install
-```
-
-
-# 3. 
-
-```
-cd ios && pod install
-```
-
-
-# シミュレーターで起動
-
-```
-npx react-native run-ios
-```
-
-
-
-
-2
-Unrecognized font family 'OpenSans-Regular'
-
-
-
-[Unrecognized font family on iOS simulator with React Native - Stack Overflow](https://stackoverflow.com/questions/42410354/unrecognized-font-family-on-ios-simulator-with-react-native)
 

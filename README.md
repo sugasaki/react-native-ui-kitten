@@ -1,6 +1,14 @@
 
+# ui-kittenの動作確認用
+
+[UI Kitten - What is UI Kitten?](https://akveo.github.io/react-native-ui-kitten/docs/getting-started/what-is-ui-kitten#what-is-ui-kitten)
+
+
 
 # 準備
+
+ソースをダウンロードした後、以下
+
 
 ```
 cd ios && pod install

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ScrollView } from 'react-native';
 import { Button, Divider, Layout, TopNavigation, Card, Icon, Text, Spinner } from '@ui-kitten/components';
 
 export const HomeScreen = ({ navigation }) => {
@@ -33,7 +33,7 @@ export const HomeScreen = ({ navigation }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <TopNavigation title='MyApp HomeScreen' alignment='center'/>
 
-      <Layout style={styles.topContainer} level='1'>
+      <ScrollView style={styles.scrollView}>
 
         <Card style={styles.card} status='success'>
           <Text style={styles.text} category='h3'>ReactNative初期画面</Text>
@@ -81,7 +81,7 @@ export const HomeScreen = ({ navigation }) => {
           </Button>
         </Card>
 
-      </Layout>
+      </ScrollView>
     </SafeAreaView>
   );
 };
@@ -90,6 +90,10 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+  },
+  scrollView: {
+    backgroundColor: 'gray',
+    marginHorizontal: 10,
   },
   card: {
     margin: 2,

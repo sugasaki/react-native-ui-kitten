@@ -20,6 +20,10 @@ export const HomeScreen = ({ navigation }) => {
   const navigateBranding03 = () => {
     navigation.navigate('Branding03');
   };
+  const navigateSocial = () => {
+    navigation.navigate('Social');
+  };
+  
   const navigateIconPack = () => {
     navigation.navigate('IconPack');
   };
@@ -80,6 +84,18 @@ export const HomeScreen = ({ navigation }) => {
             Icon Pack
           </Button>
         </Card>
+
+        
+        <Card style={styles.card} status='success'>
+          <Text style={styles.text} category='h3'>ソーシャル</Text>
+          <Text>ソーシャル　デモ</Text>
+          <Divider style={styles.divider} />
+          <Button onPress={navigateSocial} style={styles.button} status='success' accessoryRight={StarIcon}>
+            ソーシャル　デモ
+          </Button>
+        </Card>
+
+
 
       </ScrollView>
     </SafeAreaView>

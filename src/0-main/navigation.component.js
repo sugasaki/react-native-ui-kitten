@@ -10,6 +10,7 @@ import { Branding01Screen } from './02-branding01.component';
 import { Branding02Screen } from './02-branding02.component';
 import { Branding03Screen } from './02-branding03.component';
 import { IconPackScreen } from './03-iconpack.component';
+import { SocialScreen } from './04-social.component';
 
 
 const { Navigator, Screen } = createStackNavigator();
@@ -23,6 +24,7 @@ const HomeNavigator = () => (
     <Screen name='Branding02' component={Branding02Screen}/>
     <Screen name='Branding03' component={Branding03Screen}/>
     <Screen name='IconPack' component={IconPackScreen}/>
+    <Screen name='Social' component={SocialScreen}/>
   </Navigator>
 );
 
